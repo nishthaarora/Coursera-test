@@ -4,22 +4,29 @@
 		<title>hello coursera!</title>
 	
 		<style>
+
+			*	{ 
+				margin-left: 30px;
+				margin-right:30px; 
+
+				}
 			h1 {
 				color: purple;
 				text-align: center;
 				}
 
 			h2 {
-				color: green;
+				color: blue;
 				font-style: italic;
+				font-family: "Arial";
 				}
 
-			img, a.background
+			a.background
 				{
 				color: purple;
 				}	
 
-			/* all with class=highlight*/
+			/* all with class=highlight (this is a commented text)*/
 
 			p.highlight
 				{
@@ -32,19 +39,63 @@
 				color: black;
 				}	
 
+			.image {
+
+				background: green;
+				background-image: url("logo.jpeg");
+				background-image: no-repeat;
+				background-position: top right;
+				background: url('logo.jpeg') no-repeat top right; (/* this is snother way of writing backgrond all together rather mentioning everything seperately */)
+
+				padding: 60px;
+				size:40px
+				border:3px solid black;
+				}
+
+			section li {
+			list-style: none;
+			border: 5px solid black;
+			padding: 10px;
+			width:100px;
+			text-wrap: none
+			text-align: left;
+			}
+
+			section li:nth-child(3) a:hover
+			{
+				color: pink;
+			}
+
+
+			section li:nth-child(1) {
+			text-decoration-style: none;
+			background: purple;
+			
+				}
+
+			section a {
+				(/* overflow: auto this is for ebaling scroll */)
+
+			}
+
+
+
 		</style>
 
 	</head>
 
 	<body>
-		<img src="logo.jpeg" width="100" alt="logo">
+		<img class="image" src="logo.jpeg" width="100" alt="logo">
 		<h1>hello coursera! this is an amazing course</h1>
 		<section>
 			<ul>
 				<li><a href="#article1">Guest Article</a> </li>
 				<li><a href="#article2">Jabong Article</a></li>
+				<li><a href="article3">Marketing</a></li>
+				<li><a href="article4"></a></li>
 			</ul>
 		</section>
+		
 		<article id="article1">
 			<h2> "I'm not your quintessential harmless nice guy": Sajan Raj Kurup.</h2> 
 			<P>
@@ -68,12 +119,14 @@
 				Suman moved to Ulka last year. He finished writing the book a year before he moved to Ulka. Which means, the book, which is about the urgent need to do away with the old tenets of marketing, has little to do with the way Ulka's 'traditional' lot of clients, like Tata, Amul, Hero, ITC, Zee and Wipro, operate. We had to ask, though.
 				In fact, the first draft of Marketing Unplugged was written in 2010, Suman tells us. Over the years, it kept changing shape. It reflects his experience working with a lot of "new sector clients" from technology, e-commerce, services, telecom, media and healthcare segments.
 				"There are so many buzz words, so many 'hot books' of the year. As a planner, one is always trying to make a simpler story of the complex goings-on. This is my attempt at simplifying all the things around us - social, mobile, big data... how does all this fit? The exercise of sitting down and writing this helped me sort a lot of things in my own head," sighs Suman.
-				The book has ten sections. "The pieces within these sections have been written as blog posts," he says, hoping the format will appeal to the younger generation. This is as close as he could come to "not sounding professorial," he smiles.
+				The book has ten sections. "The pieces within these sections have been written as blog posts," he says, hoping the format will appeal to the younger generation. This is as close as he could come to "not sounding professorial," he smiles.</P>
+
+
 
 				<div>&copy 2016 Business Standard</div>
 
 
-			</P>
+			
 
 		<article id="article2">
 			<h2> Girls in green lipstick, guys in bridal nose-rings: What's Jabong rebelling against? </h2>
@@ -81,9 +134,48 @@
 			
 			Anti-establishment symbols, sequinned faces, satiny turbans, and feathery eyelids - Jabong is trying hard to make a point in this new ad film. What might that be?I am not a match...I am not a catch...your mom won't call me suitable...
 			You don't have to call me pretty...you don't get to call me ugly...you don't deserve my pity...I'm just me And, if you and your mom were listening to, or reading these lyrics, sans the video, which is a new ad for the online fashion portal Jabong, you will wonder what the fuss is about, or what is the brand rebelling against. Towards the end, the video tells us that the 'rebellion' is aimed at encouraging people to be what they are through the brand's tagline 'Be You'.
-
 			</p>			
 		</article>
+
+		<article id="article3">
+			
+			<h2>"Old paradigms of marketing worked for FMCG": FCB Ulka's Suman Srivastava on his first book 'Marketing Unplugged'</h2>
+			
+
+			<p>
+			Would you buy a car that was made in the 1960s? Then why do marketers still use outdated mantras to sell? That's the premise of Suman Srivastava's debut literary excursion Marketing Unplugged. That's also the name of the brand consultancy he launched after quitting his job as India CEO and APAC CSO at Euro RSCG, around five years back. The venture was recently made part of FCB Ulka Group, where Suman currently works as vice chairman and chief strategy officer.Marketing Unplugged book
+			The term 'USP', acronym for Unique Selling Proposition, insists the first-time author, died 30 years ago. The reason "old marketing" doesn't work today is because "consumers have caught on to the old tricks" he says in the book. Spruced with 'Guru Speak' sections (in which he liberally quotes experts like Nassim Nicholas Taleb and Malcolm Gladwell, among others), the book implores modern day marketers to reboot their mantras.
+			Suman moved to Ulka last year. He finished writing the book a year before he moved to Ulka. Which means, the book, which is about the urgent need to do away with the old tenets of marketing, has little to do with the way Ulka's 'traditional' lot of clients, like Tata, Amul, Hero, ITC, Zee and Wipro, operate. We had to ask, though.
+			In fact, the first draft of Marketing Unplugged was written in 2010, Suman tells us. Over the years, it kept changing shape. It reflects his experience working with a lot of "new sector clients" from technology, e-commerce, services, telecom, media and healthcare segments.
+			"There are so many buzz words, so many 'hot books' of the year. As a planner, one is always trying to make a simpler story of the complex goings-on. This is my attempt at simplifying all the things around us - social, mobile, big data... how does all this fit? The exercise of sitting down and writing this helped me sort a lot of things in my own head," sighs Suman.
+			The book has ten sections. "The pieces within these sections have been written as blog posts," he says, hoping the format will appeal to the younger generation. This is as close as he could come to "not sounding professorial," he smiles.
+			The book is targeted at "challenger brands with big ambitions." And at start-ups. It's certainly not meant for market leaders, "who tend to play safe."
+			Suman Srivastava
+			Speaking of start-ups, what does Suman think about the VC money the current lot is said to be notoriously squandering? Does he think they're wasting money on mass media? "Absolutely. Unequivocal yes," he answers, adding, "I'm worried about entrepreneurs who're already thinking about the exit strategy, the ones who're only focussed on valuation... there's mania around valuation..."
+			Should e-commerce and other digital brands, that belong to a segment driven by discounts, even bother chasing brand loyalty, an arguably elusive concept today? "Yes, they should. After all, we are creatures of habit. We like the expected. We like routine," he fields, insisting that price is not the only carrot. There are aspects like convenience, familiarity and brand experience that loyalty can be built on the back of.
+			Is this book a way to pitch for brands that belong to new age, young categories, for example mobile wallets, dot coms, etc.? In his view, it is brands - not categories - that are new age, or not. "I'm pitching for brands that want to re-invent, re-innovate," he admits.
+			While he advocates brands owning a purpose, he cautions, "It doesn't have to be a 'social' purpose. Dove, for instance, is about self esteem. Bournvita is about a new kind of mothering... the Indian tiger mom."
+			"The old paradigms of marketing worked for FMCG," adds Suman, citing Tata Salt, Tata Tea, Lifebuoy and Dove as examples of "new age brands in old fashioned categories."
+			"There's no way new sectors can stick to classical marketing - marketing that was invented for packaged goods. If they do so, then it's just a money spending racket, which is what the e-commerce guys are doing." By 'new sector' he means "everything that's not FMCG."
+			There's a chapter in the book on all things quant. Is he pro or against data mining and market research? "I'm against this whole 'big data will give me insights' belief... the best insights come from very small sample sizes - one and two... I can then verify it with a large amount of data but I can't get the insight because of that. Which means, you have to have a hypothesis. I am against over-reliance on sophisticated research techniques," he clarifies, advocating Google's concept of 'pretotyping', that is, "a quick, easy, dirty way of testing stuff."
+			The book has 255 pages and is published by Cinnamon Teal Publishing.
+			</p>
+			</article>
+
+			<article class="article4" id="article 4"> <style> .article4>h2{color:red;} </style>
+
+			<h2>The 10 Most-Watched Indian Ads on YouTube in May 2016</h2>
+
+			<p>
+			ke every month, we're back with the top 10 Indian ads on YouTube. This month's leaderboard features a healthy mix of brands from different verticals like FMCG, telecom, and technology.Aravinda Holla
+			While the brands continued spending a handsome amount to grab the eyeballs of the Indian online consumer, they aren't spending much on creating content that is exclusive for the internet. Most of these ads are just TV commercials uploaded on YouTube.
+			Note: While doing the research, one of the interesting observations we noticed was that global tech brands have started targetting the Indian audience on YouTube a lot! For instance, Website builder Wix, video conferencing product GoToMeeting, and the mobile browser UCBrowser were pretty aggressive with their ads on YouTube. But, we're not including them in this list as we're focussing more on Indian brands and their commercials.
+
+
+			</p>
+
+			</article>
+
 		<a class="background" href="http://www.afaqs.com" target="_blank" title="this will take you to website">This will take you to website</a>
 	</body>
 </html>
