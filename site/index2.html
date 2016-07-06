@@ -1,9 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<title>Floating Elements</title>
+	
+			<style>
 
-</body>
+
+				div {
+ 					 background-color: #00FFFF;
+					position: relative;
+					top: 50px;
+					}
+					
+				p 	{
+  					width: 50px;
+  					height: 50px;
+  					border: 1px solid black;
+
+					}
+
+				#p1 {
+ 					 background-color: #A52A2A;
+ 					 position: relative;
+ 					 bottom: 0;
+ 					 top: 100px;
+ 					 }
+
+				#p2 {
+					 background-color: #DEB887;
+					 position:absolute;
+					 top: 0px;
+					 bottom: 100px;
+					}
+
+				section {
+					position: relative;
+					left: 10%;
+					}
+					 
+				
+					
+			</style>
+	</head>
+	
+		<body>
+			<h1>Floating Elements</h1>
+
+				<div>
+  					<p id="p1"></p>
+  					<p id="p2"></p>
+  				
+  					
+  					<section>This is regular content continuing after the the paragraph boxes.</section>
+				</div>
+
+
+		</body>
 </html>

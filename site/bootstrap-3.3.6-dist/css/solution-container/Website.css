@@ -1,0 +1,569 @@
+
+body{
+	font-size: 16px;
+	color:#fff;
+	background-color: #800000;
+	font-family: "oxygen", sans-serif;
+
+
+
+}
+
+/*nav bar style*/
+
+#header-nav{
+
+	background-color: #FFDB58;
+	border-radius:0;
+	border:0;
+
+
+}
+	
+
+.navbar-brand{
+
+	color:#557c3e;
+	margin-top:0;
+	text-transform: uppercase;
+}
+
+
+.navbar-brand a h1
+
+{
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px 1px;
+	margin-top: 1px
+
+
+
+}
+
+.navbar-brand a:hover h1{
+
+	color:purple;
+}
+
+.navbar-brand p img{
+
+	width:13px;
+	height:13px;
+	padding:0;
+
+}
+
+
+.navbar-brand p span
+{
+	color:#557c3e;
+	vertical-align: middle;
+	font-size: 12px;
+	margin-left: 1px;
+	padding:0;
+	
+}
+
+
+img {
+
+	width:80px;
+	height:80px;
+	padding:5px;
+	
+
+	}
+
+#nav-list
+{
+
+	margin-top:10px;
+
+}
+
+#nav-list a
+{
+
+	color:#800000;
+	text-align:center;
+}
+
+#nav-list a:hover{
+
+	background:#e7e7e7;
+}
+
+#phone
+{
+
+	margin-top: 19px;
+	margin-right: 0;
+	padding:0;
+	float:right;
+}
+
+
+#call-btn{
+	margin:19px auto 19px;
+	text-align: center;
+	border:1px solid blue;
+	border-radius: 1px;
+	background-color: white;
+	width:100;
+	
+	
+}
+
+/*#phone a
+
+{
+
+	text-align: right;
+	margin-right: 2px;
+
+}*/
+
+
+#phone div
+{
+
+color:#557c3e;
+text-align: right;
+padding-right: 10px;
+text-transform: uppercase;
+margin-top: 0;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+
+{
+
+border:1px solid #61122f;
+
+}
+
+
+#menu-tiles, #home-tiles, #map
+{
+
+
+height:250px;
+width:100%;
+position:relative;
+overflow:hidden;
+
+}
+
+
+#menu-tile, #special-tile, #map-tile 
+{
+
+
+	height: 250px;
+	width: 100%;
+	border:1px solid black;
+	margin-bottom: 15px;
+	position:relative;
+}
+#menu-tile span, #special-tile span, #map-tile span
+{
+
+
+	position:absolute;
+	width:100%;
+	bottom:0;
+	right:0;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	opacity: 0.8;
+	color:#fff;
+}
+
+#menu-tile {
+
+	background:url('menu-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#special-tile {
+
+	background:url('specials-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+
+
+
+
+
+/*End of header*/
+
+
+
+
+
+
+
+/*footer*/
+
+.panel-footer{
+
+background-color:#222;
+margin-top: 35px;
+padding-top: 35px;
+padding-bottom: 30px;
+
+}
+
+
+.panel-footer div.row
+{
+
+margin-bottom: 35px;
+}
+
+
+#hours #address
+
+{
+
+	line-height: 2;
+}
+
+
+#hours>span, #address>span, #Testimonials>span{
+
+font-size:1.3em;
+text-transform: uppercase;
+}
+
+
+#address p
+
+{
+
+font-size: 0.8em;
+color:#557c3e;
+line-height: 1.8;
+}
+
+#Testimonials{
+
+	font-style: italic;
+}
+
+#Testimonials p:nth-child(2)
+{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*end of footer*/
+
+
+/*menu categories page*/
+
+.Category-title{
+
+position:relative;
+border:2px solid #3f0c1f;
+width:200px;
+height:200px;
+margin:0 auto 15px;
+}
+
+.Category-title span{
+
+position:absolute;
+bottom:0;
+right:0;
+width:100%;
+text-align: center;
+font-size:1.2em;
+text-transform: uppercase;
+opacity: .8;
+}
+
+.Category-title:hover
+{
+
+box-shadow: 0 1px 5px 1px #cccccc;
+
+
+}
+
+#Menu-Categories + div{
+
+	margin: 15px auto 15px;
+}
+
+
+
+.menu-item-tile{
+
+	margin-bottom: 25px;
+}
+
+
+.menu-item-tile hr{
+width:80%;
+}
+
+.menu-item-tile .menu-item-price{
+
+font-size:1.1em;
+text-align: right;
+margin-top: -15px;
+margin-right: -15px;
+}
+
+
+.menu-item-tile .menu-item-price span{
+
+	font-size: .6em;
+}
+
+.menu-item-photo{
+
+	position:relative;
+	border:2px solid #3f0c1f;
+	overflow: hidden;
+	padding:0;
+	margin-right: -15px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+
+.menu-item-photo div{
+position:absolute;
+bottom:0;
+right:0;
+width:80px;
+background-color: #557c3e;
+text-align: center;
+opacity:.6%;
+
+
+}
+
+.menu-item-description{
+
+	padding-right: 30px;
+	padding-top: 10px
+
+}
+
+h3.menu-item-title{
+
+	margin:0 0 10px;
+}
+
+
+.menu-item-details{
+
+	font-size:.9em;
+	font-style: italic;
+}
+/*end of menu categories page*/
+/* breakeven points */
+
+
+/* for large devices */
+
+@media(min-width: 1200px){
+
+.container .jumbotron{
+
+background:url('jumbotron_1200.jpg') no-repeat;
+height:650px;
+box-shadow: 0 0 50px #3f0c1f;
+border:2px;
+
+}
+}
+
+/* for medium devices */
+
+@media(min-width: 992px) and (max-width:1199px){
+
+.navbar-brand a h1{
+
+	font-size:1.7vw;
+}
+
+
+
+.navbar-brand p span{
+	font-size: 1vw;
+	
+
+}
+
+.navbar-header a img{
+	padding-left: 0;
+	margin-left:0;
+
+}
+
+
+.btn{
+
+	width:80vw;
+	border:5px solid #FFDB58;
+	vertical-align: center;
+	margin-left: 50px;
+	background-color: #FFDB58;
+	color:#800000; 
+}
+
+
+.container .jumbotron{
+
+background:url('jumbotron_992.jpg') no-repeat;
+height:558px;
+box-shadow: 0 0 50px #3f0c1f;
+border:2px;
+
+}
+}
+
+
+/* for small devices */
+@media(min-width: 768px) and (max-width: 991px){
+
+.navbar-header a img{
+
+	height:60px;
+	width:60px;
+}
+
+
+.container .jumbotron{
+
+background:url('jumbotron_768.jpg') no-repeat;
+height:558px;
+box-shadow: 0 0 50px #3f0c1f;
+border:2px;
+
+}
+
+
+}
+
+
+/* for extra small devices */
+
+@media(max-width:767px){
+
+
+.container .jumbotron {
+
+	padding:0;
+	margin:0;
+	box-shadow: 0 0 50px #3f0c1f;
+	border:2px;
+}
+
+.navbar-brand a h1{
+
+	font-size:2.5vw;
+	margin-top: 0;
+
+}
+
+.navbar-header a h1{
+
+margin:0;
+	
+}
+
+
+.container .jumbotron  img{
+
+width:698px;
+border-radius:10px;
+}
+
+.container{
+
+	margin-top: 20px;
+}
+
+
+.panel-footer{
+
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.panel-footer section:nth-child(3)
+{
+
+	margin-bottom: 0;
+}
+
+.panel-footer section hr{
+
+	width:50%;
+}
+
+
+.menu-item-photo{
+
+	margin:auto;
+}
+
+.menu-item-tile .menu-item-price{
+
+	text-align: center;
+	margin-top: 15px
+}
+
+.menu-item-description{
+	text-align: center;
+}
+
+}
+
+/* for super extra small devices */
+
+@media(max-width: 479px){
+
+#menu-tile, #special-tile{
+
+	width:280px;
+	margin:0 auto 15px;
+
+}
+
+.navbar-brand a h1 {
+
+
+	padding:0;
+	font-size: 3vw;
+}
+
+
+
+.col-xxs-12{
+position:relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+float:left;
+width:100%;
+
+}
+
+
+}
+
+

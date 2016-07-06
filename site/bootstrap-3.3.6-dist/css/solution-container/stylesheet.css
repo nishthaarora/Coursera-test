@@ -1,0 +1,90 @@
+
+*
+{
+
+	box-sizing: border-box;
+	font-family: arial
+}
+
+
+h1{
+	text-align: center;
+}
+
+
+.title
+
+{
+
+font-size: 1.25em
+
+}
+.col-md-4 
+{
+
+width:32%;
+float:left;
+text-align: left;
+border: 1px solid grey;
+margin: 3px;
+background: grey;
+
+}
+
+.color1
+{
+float:right;
+border: 1px solid black;
+background: pink;
+border-right:0;
+}
+
+.color2
+{
+float:right;
+border: 1px solid black;
+background:red;
+}
+
+.color3
+{
+float:right;
+border: 1px solid black;
+background:yellow;
+}
+
+
+
+p
+{
+
+clear:both;
+padding:5px;
+
+}
+
+/* For tablet */
+
+@media(max-width: 991px) and (min-width: 768px) {
+	.col-md-4 {
+		width: 48%;
+	}
+	.col-md-4:nth-child(3) {
+		width: 97%;
+	}
+
+}
+
+/* for mobile */
+
+@media (max-width: 767px) {
+
+	.col-md-4 {
+
+		width: 95%;
+		margin:10px;
+
+	}
+
+}
+	

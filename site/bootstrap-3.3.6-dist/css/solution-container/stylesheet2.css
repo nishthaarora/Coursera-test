@@ -1,0 +1,112 @@
+
+
+
+
+/* This is my Default Style */
+
+*{
+	box-sizing: border-box;
+	
+}
+
+h1
+{
+
+text-align: center;
+}
+
+.text
+{
+	clear:both;
+	display: block;
+}
+
+p
+{
+width:30%;
+float:left;
+border:2px;
+margin:10px;
+background:grey;
+padding:5px;
+
+
+}
+
+
+.title1
+{
+background:red;
+float:right;
+border: 1px solid black;
+border-right: 0;
+padding-right:15px;
+padding-left: 15px;
+border-bottom-width:1px;
+
+}
+
+.title2
+{
+background: green;
+float:right;
+border:1px solid black;
+padding-right:15px;
+padding-left: 15px;
+border-bottom-width:1px;
+}
+
+.title3
+{
+background:yellow;
+float:right;
+border:1px solid black;
+padding-right:15px;
+padding-left: 15px;
+border-bottom-width:1px;
+}
+
+
+/* Breakthrough for Desktop */
+
+@media (min-width: 992px){
+
+	.col-med-1
+	{
+		width:30%;
+	}
+
+}
+
+/* for tablets */
+@media (min-width: 768px) and (max-width: 991px)
+
+	{
+		.col-med-1 
+		{
+			width:46%;
+		}
+
+		.col-med-1:nth-child(4)
+		{
+			width:95%;
+			
+		}
+		
+
+
+	}
+
+
+@media (max-width: 676px){
+
+.col-med-1
+{
+
+	width:100%;
+	margin:20px;
+}
+
+}
+
+
